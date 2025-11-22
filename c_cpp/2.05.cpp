@@ -1,8 +1,7 @@
 #include <iostream>
 
-
-
-int main(){
+int main()
+{
     double current_elem = 1.0, sum = 0, eps;
     int iter = 1;
     std::cin >> eps;

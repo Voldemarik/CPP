@@ -5,15 +5,15 @@ int main() {
     while (std::cin >> c) {
         switch (c) {
             case '0' ... '9':
-                std::cout << "Десятичные цифры" << std::endl;
+                std::cout << "Decimal" << std::endl;
                 break;
 
             case 'A' ... 'Z':
-                std::cout << "Заглавные буквы" << std::endl;
+                std::cout << "Main" << std::endl;
                 break;
                 
             case 'a' ... 'z':
-                std::cout << "Строчные буквы" << std::endl;
+                std::cout << "String" << std::endl;
                 break;
                 
             case '!': case '"': case '#': case '$': case '%': case '&': case '\'': 
@@ -21,11 +21,11 @@ int main() {
             case '/': case ':': case ';': case '<': case '=': case '>': case '?': 
             case '@': case '[': case '\\': case ']': case '^': case '_': case '`':
             case '{': case '|': case '}': case '~':
-                std::cout << "Знаки препинания" << std::endl;
+                std::cout << "Pointer" << std::endl;
                 break;
                 
             default:
-                std::cout << "Прочие символы" << std::endl;
+                std::cout << "Another" << std::endl;
                 break;
         }
     }
